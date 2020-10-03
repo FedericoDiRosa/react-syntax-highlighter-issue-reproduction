@@ -1,6 +1,6 @@
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { github } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 function App() {
   const codeString = `
@@ -29,7 +29,7 @@ function App() {
       }}
     >
       <h1>React Syntax Highlighter Issue Reproduction</h1>
-      <SyntaxHighlighter language="javascript" style={github}>
+      <SyntaxHighlighter language="javascript" style={nightOwl}>
         {codeString}
       </SyntaxHighlighter>
     </div>
