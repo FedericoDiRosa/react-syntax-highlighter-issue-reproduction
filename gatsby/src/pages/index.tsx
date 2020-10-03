@@ -30,6 +30,16 @@ export default function Home() {
       }}
     >
       <h1>React Syntax Highlighter Issue Reproduction</h1>
+      <h2>Gatsby</h2>
+      <div>
+        <div>created with:</div>
+        <SyntaxHighlighter language="bash" style={github}>
+          gatsby new gatsby
+          https://github.com/gatsbyjs/gatsby-starter-hello-world
+        </SyntaxHighlighter>
+      </div>
+
+      <h3>Example</h3>
       <SyntaxHighlighter language="javascript" style={github}>
         {codeString}
       </SyntaxHighlighter>

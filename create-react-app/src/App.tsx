@@ -29,6 +29,14 @@ function App() {
       }}
     >
       <h1>React Syntax Highlighter Issue Reproduction</h1>
+      <h2>Create React App</h2>
+      <div>
+        <div>created with:</div>
+        <SyntaxHighlighter language="bash" style={github}>
+          yarn create react-app my-app --template typescript
+        </SyntaxHighlighter>
+      </div>
+
       <SyntaxHighlighter language="javascript" style={github}>
         {codeString}
       </SyntaxHighlighter>
