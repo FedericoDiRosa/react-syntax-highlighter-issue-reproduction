@@ -1,8 +1,9 @@
-import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { github } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import React from "react"
+import SyntaxHighlighter from "react-syntax-highlighter"
+import { github } from "react-syntax-highlighter/dist/esm/styles/hljs"
+import "./index.css"
 
-function App() {
+export default function Home() {
   const codeString = `
   <script type="application/ld+json">
   {
@@ -17,7 +18,7 @@ function App() {
         }
       }]
     }
-  </script>`;
+  </script>`
   return (
     <div
       style={{
@@ -33,7 +34,5 @@ function App() {
         {codeString}
       </SyntaxHighlighter>
     </div>
-  );
+  )
 }
-
-export default App;

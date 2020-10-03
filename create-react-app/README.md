@@ -1,6 +1,4 @@
-# React Syntax Highlighter Issue Reproduction 🐛
-
-https://github.com/react-syntax-highlighter/react-syntax-highlighter/issues/263
+# Create React App
 
 ## Note
 
